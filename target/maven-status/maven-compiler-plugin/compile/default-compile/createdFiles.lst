@@ -1,0 +1,8 @@
+com\ef\Parser.class
+com\ef\configuration\Configuration.class
+com\ef\configuration\DateConverter.class
+com\ef\entity\DatabaseLog.class
+com\ef\entity\AccessLog.class
+com\ef\service\ParserService.class
+com\ef\ParserException.class
+com\ef\service\ParserServiceImpl.class
