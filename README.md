@@ -12,6 +12,10 @@ Run the following command to compile:
 	
 The jar can be found in `target` folder
 
+To set database username and password add the parameters jdbcUsername and jdbcPassword. Example:
+
+	java -cp "parser.jar" com.ef.Parser --accesslog=/path/to/file --startDate=2017-01-01.13:00:00 --duration=hourly --threshold=100 --jdbcUsername=user --jdbcPassword=pass
+
 ### (2) Source Code for the Java program
 
 ### (3) MySQL schema used for the log data
