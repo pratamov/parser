@@ -15,6 +15,13 @@ The jar can be found in `target` folder
 To set database username and password add the parameters jdbcUsername and jdbcPassword. Example:
 
 	java -cp "parser.jar" com.ef.Parser --accesslog=/path/to/file --startDate=2017-01-01.13:00:00 --duration=hourly --threshold=100 --jdbcUsername=user --jdbcPassword=pass
+		
+Additional parameters:
+
+- `jdbcClass` (default : `org.mariadb.jdbc.Driver`)
+- `jdbcUrl` (default : `jdbc:mysql://localhost:3306/parser?useFractionalSeconds=true`)
+- `jdbcUsername` (default : empty string)
+- `jdbcPassword` (default : empty string)
 
 ### (2) Source Code for the Java program
 
