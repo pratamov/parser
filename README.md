@@ -18,7 +18,7 @@ To set database username and password add the parameters jdbcUsername and jdbcPa
 		
 Additional parameters:
 
-- `jdbcClass` (default : `org.mariadb.jdbc.Driver`)
+- `jdbcClass` (default : `org.mariadb.jdbc.Driver`, it can take value `com.mysql.cj.jdbc.Driver`)
 - `jdbcUrl` (default : `jdbc:mysql://localhost:3306/parser?useFractionalSeconds=true`)
 - `jdbcUsername` (default : empty string)
 - `jdbcPassword` (default : empty string)
